@@ -17,6 +17,7 @@ class Waiter
   def new_meal(customer, total, tip=0)
     Meal.new(self, customer, total, tip)
   end 
+<<<<<<< HEAD
   
   def meals
     Meal.all.select do |meal|
@@ -31,4 +32,9 @@ class Waiter
     best_tipped_meal.customer 
   end 
   
+=======
+  
+
+
+>>>>>>> 231c7c6bccee54b1a18f1006bf94443fce6030f9
 end
